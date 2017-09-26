@@ -1,0 +1,248 @@
+body {
+  background-color: #A6ACAF;
+}
+h2, h3, h4, h6, button {
+  font-family: 'Bree Serif', serif;
+}
+h3{
+    color: darkred;
+}
+
+#seccion-logo .inicio {
+  margin-bottom: 0;
+  background: #2E86C1;
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 35px;;
+  width: auto;
+  height: 100px;
+  margin: -10px;
+  padding: 10px;
+  border: 0px;
+}
+#seccion-nombres .nombre {
+  background-color: #BDC3C7;
+  font-family: sans-serif;
+  margin-bottom: 0;
+  border: 0;
+  width: auto;
+  height: 250px;
+  margin: -10px;
+  padding: 10px;
+  border: 0px;
+  text-align:center;
+  
+}
+#seccion-nombres .logo{
+    display: block;
+	margin: -12% 0% 0% 10%;
+}
+#seccion-modulos .modulo{
+	text-align: center;
+	font-size: 2rem;
+
+}
+
+img .gif{
+    display: block;
+    margin: auto;
+}
+
+
+/* Style the tab */
+div.tab {
+    overflow: hidden;
+    background-color: #333;
+    margin: -10px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #F8C471;
+    color: black;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #2E86C1;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border:0;
+    border-top: none;
+    background-color: #C0C0C0;
+    margin:10px -10px 0px -10px;
+    font-size: 20px;
+
+}
+ 
+}
+a{
+color: white;
+text-decoration: none;
+}
+
+table {
+    border: 1px;
+    width: 100%;
+
+}
+
+th, td {
+    text-align: justify;
+    padding: 8px;
+}
+
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+td{
+background-color: #f2f2f2	
+}
+#inicio h4, h5{
+	text-align: center;
+	font-size: 25px;
+}
+
+#inicio h4{
+	font-weight: normal;
+}
+#modulo1 h4, h3{
+	text-align: center;
+}
+#modulo1  p{
+	text-align: justify;
+	margin: 0% 20% 0% 20%;
+}
+
+
+caption{
+	font-size: 17px;
+	font-weight: bold;
+}
+.zoom{
+    transition: 1s ease;
+    -moz-transition: 1s ease; /* Firefox */
+    -webkit-transition: 1s ease; /* Chrome - Safari */
+    -o-transition: 1s ease; /* Opera */
+    display: block;
+    margin: auto;
+}
+.zoom:hover{
+		transform : scale(3);
+		-moz-transform : scale(3); /* Firefox */
+		-webkit-transform : scale(3); /* Chrome - Safari */
+		-o-transform : scale(3); /* Opera */
+		-ms-transform : scale(3); /* IE9 */
+}
+
+----------
+/*#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin: auto;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+/*.modal {
+    display: none; /* Hidden by default 
+    position: fixed; /* Stay in place 
+    z-index: 1; /* Sit on top 
+    padding-top: 100px; /* Location of the box 
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width 
+    height: 100%; /* Full height 
+    overflow: auto; /* Enable scroll if needed 
+    background-color: rgb(0,0,0); /* Fallback color 
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity 
+}
+
+/* Modal Content (image)
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image 
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation 
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+}
+
+/* The Close Button 
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens 
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+*/
+k
